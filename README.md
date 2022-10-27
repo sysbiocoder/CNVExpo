@@ -16,7 +16,7 @@ CNV. Bcftools is used to determine the read depth per position. Clustering is do
     ├── cnvest.py <br>
     ├── cnvplot.py <br>
     ├── cnvtab.py <br>
-    ├── cnvvis.py <br> <br>
+    ├── cnvvis.py <br>
     ├── findclust.py <br>
     ├── igv.py <br>
 
