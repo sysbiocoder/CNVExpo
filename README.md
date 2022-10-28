@@ -1,10 +1,11 @@
 # CNVExpo <br>
 ``CNVExpo: 
-Python package for detection of copy number variation analysis in next generation sequencing data 
+Python package for detection of copy number variation in next generation sequencing data 
 
-CNVExpo uses mapped bam file as input and determine read-depth in each position of the panel or exome bed file provided by user to compute 
-CNV. Bcftools is used to determine the read depth per position. Clustering is done based on a control gene, where CNV is not present. Here is the structure of files in CNVExpo.
+CNVExpo uses mapped and indexed bam file as input. The user provides a target bed file defining the chromosomal positions, which should be analysed. 
+Bcftools mpileup is used to determine the read depth per position. Optional clustering of samples is done based on an arbitrarily chosen control gene. 
 
+The structure of files in CNVExpo is shown below.<br>
 
 ├── cnvcal.py <br>
 ├── data <br>
@@ -53,7 +54,7 @@ Run from folder CNVExpo  <br>
 ##  Step 1: Input requirements<br>
 Create a project_folder, which would be the working directory<br>
 Inside project folder make a directory input and store bedfiles, sample list and gene list.<br>
-CNVExpo also requires location of the bam file.<br>
+CNVExpo also requires location of the bam file named as "<sampleid>.bam"<br>
 •	Generating genes/control bedfile:<br>
 The bed file is supposed to have 5 fields for each gene or regions delimited by <TAB> space.<br>
 The fields required in the bedfile are given below:<br>
