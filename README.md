@@ -10,7 +10,7 @@ CNV. Bcftools is used to determine the read depth per position. Clustering is do
 ├── data <br>
 │   ├── ccds.gtf <br>
 │   ├── control.bed <br>
-│   ├── GRCh38_full_analysis_set_plus_decoy_hla.fa <br>
+│   ├── GRCh38_full_analysis_set_plus_decoy_hla.fa  (GRCh38_full_analysis_set_plus_decoy_hla.fa (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa) <br>
 │   └── GRCh38_full_analysis_set_plus_decoy_hla.fa.fai <br>
 └── scripts <br>
     ├── cnvest.py <br>
