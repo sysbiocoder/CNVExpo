@@ -20,12 +20,12 @@ CNV. Bcftools is used to determine the read depth per position. Clustering is do
     ├── findclust.py <br>
     ├── igv.py <br>
     ├── workdir <br>
-        ├── input <br>
-            ├── bed file <br>
-            ├── gene list <br>
-            ├── sample list <br>
-        ├── output <br>
-
+    │    ├── input <br>
+    │    │  ├── bed file <br>
+    │    │  ├── gene list <br>
+    │    └──── sample list <br>
+    │   ├── output <br>
+    └── 
 ## Installation <br>
 CNVExpo requires the following libraries to be installed and is checked in Linux environment with the version provided below<br>
 Requirements: <br>
