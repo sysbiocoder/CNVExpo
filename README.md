@@ -26,7 +26,9 @@ The structure of files in CNVExpo is shown below.<br>
     │    │  ├── gene list <br>
     │    └──── sample list <br>
     │   ├── output <br>
-    └── 
+    │   │  ├──  vcf <br>
+    └── └────  report <br>
+    
 ## Installation <br>
 CNVExpo requires the following libraries to be installed and is checked in Linux environment with the version provided below<br>
 Requirements: <br>
